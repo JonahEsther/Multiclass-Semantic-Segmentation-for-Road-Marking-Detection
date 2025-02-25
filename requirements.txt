@@ -1,0 +1,24 @@
+# Core dependencies for geospatial processing
+geopandas>=1.0.1
+rasterio>=1.4.3
+shapely>=2.0.0
+
+# Deep learning and model training
+torch>=2.5.1
+torchvision>=0.20.1
+segmentation-models-pytorch>=0.3.4
+
+# Image processing and augmentation
+opencv-python>=4.10.0.84
+albumentations>=1.4.24
+pillow>=10.0.0
+
+# Numerical computation
+numpy>=1.26.4
+
+# Visualization and evaluation
+matplotlib>=3.10.0
+scikit-learn>=1.6.0
+
+# Progress tracking
+tqdm>=4.67.1
