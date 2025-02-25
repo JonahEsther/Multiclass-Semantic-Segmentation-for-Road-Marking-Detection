@@ -1,4 +1,4 @@
-# Road Marking Detection
+# Multiclass Semantic Segmentation for Road Marking Detection
 
 This project implements a deep learning pipeline for detecting road markings (e.g., dashed lines, solid lines, triangles, blocks) using aerial imagery and geospatial data. It leverages a U-Net model with a ResNet50 backbone, trained on preprocessed raster and vector data.
 
