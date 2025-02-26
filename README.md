@@ -1,4 +1,4 @@
-# Multiclass Semantic Segmentation for Road Marking Detection
+# Road Marking Detection
 
 This project implements a deep learning pipeline for detecting road markings (e.g., dashed lines, solid lines, triangles, blocks) using aerial imagery and geospatial data. It leverages a U-Net model with a ResNet50 backbone, trained on preprocessed raster and vector data.
 
@@ -51,10 +51,10 @@ This project implements a deep learning pipeline for detecting road markings (e.
 
         3. **Annotation Files**:
            - Place the annotation files for road markings in the `data/annotation/` directory:
-             - [DashedLines.shp]((/data/DashedLines.shp): Dashed line annotations.
-             - [SolidLines.shp]((/data/SolidLines.shp): Solid line annotations.
-             - [TriangleMark.shp]((/data/TriangleMark.sh): Triangle marking annotations.
-             - [BlockMark.shp]((/data/BlockMark.shp): Block marking annotations.
+             - [DashedLines.shp](/data/DashedLines.shp): Dashed line annotations.
+             - [SolidLines.shp](/data/SolidLines.shp): Solid line annotations.
+             - [TriangleMark.shp](/data/TriangleMark.sh): Triangle marking annotations.
+             - [BlockMark.shp](/data/BlockMark.shp): Block marking annotations.
              
    Ensure [QGIS](https://qgis.org/en/site/) is installed and that `qgis_process` is available in your command line for preprocessing.
 
@@ -66,7 +66,7 @@ Usage
 1. Preprocessing
 Convert raster data into tiles, mask with road shapefiles, and rasterize markings:
 
-   ```bash
+   ```python
    python src/preprocess.py
    ```  
 
